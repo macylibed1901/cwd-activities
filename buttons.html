@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+        <!-- Font awesome link -->
+        <script src="https://kit.fontawesome.com/a70e381b02.js" crossorigin="anonymous"></script>
+        <!-- Font awesome cdjns-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />        
+        <!-- Compiled and minified CSS -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+       <!-- Custom CSS -->
+      <link red="stylesheet" type="text/css" href="style.css">
+    <!-- For cloud/button Icons -->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+    <title>Buttons</title>
+</head>
+<body>
+    <h1 class="center red-text text-lighten-2">Buttons</h1>
+    <div class="divider"></div>
+    <div class="container"><p>There are 3 main button types described in material design. The raised button is a standard button that signify actions and seek to give depth to a mostly flat page. The floating circular action button is meant for very important functions. Flat buttons are usually used within elements that already have depth like cards or modals.</p>
+    
+    <h3 class="red-text text-lighten-2">Raised</h3>
+    <a href="" class="waves-effect waves-light btn-large"></a>
+    <a href="" class="btn-floating waves-effect waves-light"></a>
+    <a href="" class="btn blue">Button</a>
+    <a href="" class="btn blue"><i class="material-icons left">cloud</i>Button</a>
+    <a class="waves-effect waves-light btn"><i class="material-icons right">cloud</i>button</a>
+
+    <h3 class="red-text text-lighten-2">Floating</h3>
+   <a href="" class="btn-floating btn-large red"><i class="material-icons">add</i></a>
+
+    <h5>Floating Action Button</h5>
+    <p>See the documentation on <a href="https://materializecss.com/floating-action-button.html" target="_blank">this page</a></p>    
+
+    <h3 class="red-text text-lighten-2">Flat</h3>
+    <p>Flat buttons are used to reduce excessive layering. For example, flat buttons are usually used for actions within a card or modal so there aren't too many overlapping shadows.</p>
+    <a href="" class="waves-effect waves-red btn-flat">Button</a>
+
+    <h3 class="red-text text-lighten-2">Submit Button</h3>
+    <p>When you use a button to submit a form, instead of using a input tag, use a button tag with a type submit.</p>
+    <button class="btn waves-effect waves-light"  type="submit" name="action">Submit <i class="material-icons right">send</i></button>
+
+    <h3 class="red-text text-lighten-2">Large</h3>
+    <p>This button has a larger height for buttons that need more attention.</p>
+    <a href="" class="waves-effect waces-light btn-large">Button</a>
+    <a href="" class="waves-effect waves-light btn-large"><i class="material-icons left">cloud</i>button</a>
+    <a href="" class="waves-effect waves-red btn-flat btn-large"><i class="material-icons left">cloud</i>button</a>
+
+    <h3 class="red-text text-lighten-2">Small</h3>
+    <p>When mouse and keyboard are the primary input methods, this smaller button is useful for denser UI layouts.</p>
+    <a href="" class="waves-effect waces-light btn-small">Button</a>
+    <a href="" class="waves-effect waves-light btn-small"><i class="material-icons left">cloud</i>button</a>
+    <a href="" class="waves-effect waves-red btn-flat btn-small"><i class="material-icons left">cloud</i>button</a>
+
+    <h3 class="red-text text-lighten-2">Disabled</h3>
+    <p>This style can be applied to all button types</p>
+    <a href="" class="btn-large disabled">Button</a>
+    <a href="" class="btn-small disabled">Button</a>
+    <a href="" class="btn-large disabled"><i class="material-icons left">cloud</i>Button</a>
+    <a href="" class="btn-floating disabled"><i class="material-icons">add</i></a>
+    <br><br><br>
+    </div>
+
+    <h1 class="center red-text text-lighten-2 ">GRID</h1>
+    <div class="divider"></div>
+    <div class="container">
+      <p>We are using a standard 12 column fluid responsive grid system. The grid helps you layout your page in an ordered, easy fashion.</p>
+
+      <h3 class="red-text text-lighten-2">Container</h3>
+      <p>The container class is not strictly part of the grid but is important in laying out content. It allows you to center your page content. The container class is set to ~70% of the window width. It helps you center and contain your page content. We use the container to contain our body content.</p>
+      <h4>Demo</h4>
+      <p>Try the button below to see what the page looks like without containers.</p>
+
+      <h3 class="red-text text-lighten-2">Introduction</h3>
+      <p>Take a look at this section to quickly understand how the grid works!</p>
+      <h4>12 Columns</h4>
+      <p>Our standard grid has 12 columns. No matter the size of the browser, each of these columns will always have an equal width.</p>
+      <div class="row">
+        <div class="col s1">1</div>
+        <div class="col s1">2</div>
+        <div class="col s1">3</div>
+        <div class="col s1">4</div>
+        <div class="col s1">5</div>
+        <div class="col s1">6</div>
+        <div class="col s1">7</div>
+        <div class="col s1">8</div>
+        <div class="col s1">9</div>
+        <div class="col s1">10</div>
+        <div class="col s1">11</div>
+        <div class="col s1">12</div>
+      </div>
+      <h4>Columns live inside Rows</h4>
+      <p>Remember when you are creating your layout that all columns must be contained inside a row and that you must add the col class to your inner divs to make them into columns</p>
+      <div class="row">
+        <div class="col s12">This div is 12-columns wide on all screen sizes</div>
+        <div class="col s6">6-columns (one-half)</div>
+        <div class="col s6">6-columns (one-half)</div>
+    
+      </div>
+      <h3 class="red-text text-lighten-2">Offsets</h3>
+      <p>To offset, simply add offset-s2 to the class where s signifies the screen class-prefix (s = small, m = medium, l = large) and the number after is the number of columns you want to offset by.</p>
+      <div class="row">
+        <div class="col s12"><span class="flow-text">This div is 12-columns wide on all screen sizes</span></div>
+        <div class="col s6 offset-s6"><span class="flow-text">6-columns (offset-by-6)</span></div>
+      </div>
+      <h3 class="red-text text-lighten-2">Push and Pull</h3>
+      <p>You can easily change the order of your columns with push and pull. Simply add push-s2 or pull-s2 to the class where s signifies the screen class-prefix (s = small, m = medium, l = large) and the number after is the number of columns you want to push or pull by.</p>
+      <div class="row">
+        <div class="col s7 push-s5"><span class="flow-text">This div is 7-columns wide on pushed to the right by 5-columns.</span></div>
+        <div class="col s5 pull-s7"><span class="flow-text">5-columns wide pulled to the left by 7-columns</span></div>
+      </div>
+      <h3 class="red-text text-lighten-2">Creating Layouts</h3>
+      <p>Here we will show you how to create some commonly used layouts with our grid system. Hopefully these will get you more comfortable with laying out elements. To keep these demos simple, the ones here will not be responsive.</p>
+      <div class="row">
+        <div class="col s6 push-s6"><h4>Section</h4>
+        <p>The section class is used for simple top and bottom padding. Just add the section class to your div's containing large blocks of content.</p></div>
+        <div class="col s6 pull-s6"><h4>Divider</h4><p>Dividers are 1 pixel lines that help break up your content. Just add the divider to a div in between your content.</p></div>
+      </div>
+      <div class="divider"></div>
+      <div class="section">
+        <h5>Section 1</h5>
+        <p>Stuff</p>    
+      </div>
+      <div class="divider"></div>
+      <div class="section">
+        <h5>Section 2</h5>
+        <p>Stuff</p>
+      </div>
+      <div class="divider"></div>
+      <div class="section">
+        <h5>Section 3</h5>
+        <p>Stuff</p>
+      </div>
+
+      <h4>Example Promotion Table</h4>
+      <p>If we want 3 divs that are equal size, we define the divs with a width of 4-columns, as 4+4+4 nicely adds up to 12. Inside those divs, we can put our content. Take our front page content for example. We've modified it slightly for the sake of this example.</p>
+      <div class="row">
+      <div class="col s4">
+        <h4>Speeds up development</h4><p>We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components.</p>
+      </div>
+      <div class="col s4">
+        <h4>User Experience Focused</h4><p>By utilizing elements and principles of Material Design, we were able to create a framework that focuses on User Experience.</p>
+      </div>
+      <div class="col s4">
+        <h4>Easy to work with</h4><p>We have provided detailed documentation as well as specific code examples to help new users get started.</p>
+      </div>
+      <h4>Example Side Navigation Layout</h4>
+      <p>You can see how easy it is to create layouts using the grid system. Just remember to make sure your column numbers add up to 12 for an even layout.</p>
+      <!-- Active Items -->
+      <H3 class="red-text text-lighten-2">Active Items</H3>
+      <p>Add active class to your li tags to denote the current page.</p>
+      <nav class="orange light-orange">
+         <div class="container">
+         <div class="nav-wrapper">
+             <a href="" class="brand-logo center" target="_blank">
+                 <i class="fa-solid fa-mug-hot"></i>
+                 </a>
+                <ul id="nav-mobile" class="center hide-on-med-and-down">
+                 <li class="active"><a href="https://fontawesome.com/kits" 
+                     target="_blank" class="black-text">Your Kits</a>
+                 </li>
+                 <li><a href="https://fontawesome.com/icons" 
+                     target="_blank" class="black-text">Icons</a>
+                 </li>
+                 <li><a href="https://fontawesome.com/docs" 
+                     target="_blank" class="black-text">Docs</a>
+                 </li>
+             </ul>               
+             </nav>
+             <div class="row">
+              <div class="col s3 green"><p>You can see how easy it is to create layouts using the grid system. Just remember to make sure your column numbers add up to 12 for an even layout.</p></div>
+              <div class="col s9 red"><p>You can see how easy it is to create layouts using the grid system. Just remember to make sure your column numbers add up to 12 for an even layout.You can see how easy it is to create layouts using the grid system. Just remember to make sure your column numbers add up to 12 for an even layout.You can see how easy it is to create layouts using the grid system. Just remember to make sure your column numbers add up to 12 for an even layout.You can see how easy it is to create layouts using the grid system. Just remember to make sure your column numbers add up to 12 for an even layout.</p></div>
+             </div>
+             <h3 class="red-text text-lighten-2">Creating Responsive Layouts</h3>
+             <p>Above we showed you how to layout elements using our grid system. Now we'll show you how to design your layouts so that they look great on all screen sizes.</p>
+             <h4>Screen Sizes</h4>
+             <div class="row">
+              <div class="grid-example col s12 teal lighten-2"><span class="flow-text">I am always full-width (col s12)</span></div>
+              <br><br>
+              <div class="grid-example col s12 m6 red lighten-3"><span class="flow-text">I am full-width on mobile (col s12 m6)</span></div>
+            </div>
+
+              <h4>Responsive Side Navigation Layout</h4>
+              <p>In this example below, we take the same layout from above, but we make it responsive by defining how many columns the div should take up on each screen size. Try resizing your browser and watch the layout change below.</p>
+
+              <!-- Active Items -->
+      <H3 class="red-text text-lighten-2">Active Items</H3>
+      <p>Add active class to your li tags to denote the current page.</p>
+      <nav class="orange light-orange">
+         <div class="container">
+          <!-- Navbar-->
+         <div class="nav-wrapper">
+             <a href="" class="brand-logo center" target="_blank">
+                 <i class="fa-solid fa-mug-hot"></i>
+                 </a>
+                <ul id="nav-mobile" class="center hide-on-med-and-down">
+                 <li class="active"><a href="https://fontawesome.com/kits" 
+                     target="_blank" class="black-text">Your Kits</a>
+                 </li>
+                 <li><a href="https://fontawesome.com/icons" 
+                     target="_blank" class="black-text">Icons</a>
+                 </li>
+                 <li><a href="https://fontawesome.com/docs" 
+                     target="_blank" class="black-text">Docs</a>
+                 </li>
+             </ul>               
+             </nav>
+             <!-- navigator -->
+             <div class="row">
+              <div class="col s12 m4 l3 grey"><p>   This content will be:
+                3-columns-wide on large screens,
+                4-columns-wide on medium screens,
+                12-columns-wide on small screens</p></div>
+                <div class="col s12 m8 l9 teal">This content will be:
+                  9-columns-wide on large screens,
+                  8-columns-wide on medium screens,
+                  12-columns-wide on small screens  </div>
+             </div>
+             
+             <h4>More Responsive Grid Examples</h4>
+             <div class="row">
+              <div class="col s12 teal"><p>12</p></div>
+              <div class="col s12 m4 l2 yellow">
+                <p>s12 m4 l2</p>
+              </div>
+              <div class="col s12 m4 l8 blue">
+                <p>s12 m4 l8</p>
+              </div>
+              <div class="col s12 m4 l2 red">
+                <p>s12 m4 l2</p>
+              </div>
+
+              <div class="row">
+                <div class="col s12 m6 l3 orange lighten-2">
+                  <p>col s12 m6 l3 </p>
+                </div>
+                <div class="col s12 m6 l3 pink lighten-2">
+                  <p>col s12 m6 l3 </p>
+                </div>
+                <div class="col s12 m6 l3 red lighten-2">
+                  <p>col s12 m6 l3 </p>
+                </div>
+                <div class="col s12 m6 l3 purple"><p>col s12 m6 l3 </p>
+                </div>
+
+                <div class="row">
+                  <div class="col s3 purple lighten-3">col s3</div>
+                  <div class="col s3 yellow lighten-3">col s3</div>
+                  <div class="col s3 blue lighten-3">col s3</div>
+                  <div class="col s3 purple lighten-3">col s3</div>
+                </div>
+
+                
+
+              </div>
+             </div>
+             
+             
+    </div>
+    </div>
+    
+
+
+
+
+
+    
+      <!-- Jquery CDN -->
+      <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+      <!-- Compiled and minified JavaScript -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+</body>
+</html>
